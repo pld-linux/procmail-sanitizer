@@ -1,12 +1,12 @@
 Summary:	Enhancing E-Mail Security With Procmail
 Summary(pl):	Zwiêkszanie bezpieczeñstwa poczty elektronicznej przy pomocy procmaila
 Name:		procmail-sanitizer
-Version:	1.135
+Version:	1.142
 Release:	1
 License:	GPL
 Group:		Applications/System
 Source0:	http://www.impsec.org/email-tools/%{name}.tar.gz
-# Source0-md5:	628787547d1cf39a6d4b3e6a69fec932
+# Source0-md5:	9bc90ce7919202263566d1161d23b130
 URL:		ftp://ftp.rubyriver.com/pub/jhardin/antispam/procmail-security.html
 Requires:	procmail
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -25,7 +25,7 @@ elektroniczn±. Okaza³o siê bardzo efektywne przeciwko ostatniemu
 wysypowi robaków pocztowych.
 
 %prep
-%setup  -q -n %{name}
+%setup -q -c
 
 %install
 rm -rf $RPM_BUILD_ROOT
