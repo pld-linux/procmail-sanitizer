@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		Applications/System
 Source0:	http://www.impsec.org/email-tools/%{name}.tar.gz
+# Source0-md5:	628787547d1cf39a6d4b3e6a69fec932
 URL:		ftp://ftp.rubyriver.com/pub/jhardin/antispam/procmail-security.html
 Requires:	procmail
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
