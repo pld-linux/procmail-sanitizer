@@ -1,7 +1,7 @@
 Summary:	Enhancing E-Mail Security With Procmail
 Summary(pl):	Zwiêkszanie bezpieczeñstwa poczty elektronicznej przy pomocy procmaila
 Name:		procmail-sanitizer
-Version:	1.133
+Version:	1.135
 Release:	1
 License:	GPL
 Group:		Applications/System
@@ -35,12 +35,10 @@ install html-trap.procmail.nomacroscan $RPM_BUILD_ROOT%{_sysconfdir}
 install poisoned-files $RPM_BUILD_ROOT%{_sysconfdir}
 install security-optout.procmail $RPM_BUILD_ROOT%{_sysconfdir}
 
-gzip -9nf *.txt
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.html *.txt.gz
+%doc *.html *.txt
 %{_sysconfdir}/*
