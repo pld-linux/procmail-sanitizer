@@ -2,7 +2,7 @@ Summary:	Enhancing E-Mail Security With Procmail
 Summary(pl):	Zwiêkszanie bezpieczeñstwa poczty elektronicznej przy pomocy procmaila
 Name:		procmail-sanitizer
 Version:	1.142
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/System
 Source0:	http://www.impsec.org/email-tools/%{name}.tar.gz
