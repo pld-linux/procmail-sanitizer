@@ -11,7 +11,7 @@ URL:		ftp://ftp.rubyriver.com/pub/jhardin/antispam/procmail-security.html
 Requires:	procmail
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define         _sysconfdir     /etc/procmail
+%define		_sysconfdir	/etc/procmail
 
 %description
 The Sanitizer is a tool for preventing attacks on your computer's
