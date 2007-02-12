@@ -1,5 +1,5 @@
 Summary:	Enhancing E-Mail Security With Procmail
-Summary(pl):	Zwiêkszanie bezpieczeñstwa poczty elektronicznej przy pomocy procmaila
+Summary(pl.UTF-8):   ZwiÄ™kszanie bezpieczeÅ„stwa poczty elektronicznej przy pomocy procmaila
 Name:		procmail-sanitizer
 Version:	1.142
 Release:	3
@@ -19,10 +19,10 @@ security via email messages. It has proven to be very effective
 against the latest crop of email worms that have gotten so much
 attention in the popular press.
 
-%description -l pl
-Sanitizer to narzêdzie do zapobiegania atakom poprzez pocztê
-elektroniczn±. Okaza³o siê bardzo efektywne przeciwko ostatniemu
-wysypowi robaków pocztowych.
+%description -l pl.UTF-8
+Sanitizer to narzÄ™dzie do zapobiegania atakom poprzez pocztÄ™
+elektronicznÄ…. OkazaÅ‚o siÄ™ bardzo efektywne przeciwko ostatniemu
+wysypowi robakÃ³w pocztowych.
 
 %prep
 %setup -q -c
