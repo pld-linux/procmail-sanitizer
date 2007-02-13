@@ -1,5 +1,5 @@
 Summary:	Enhancing E-Mail Security With Procmail
-Summary(pl.UTF-8):   Zwiększanie bezpieczeństwa poczty elektronicznej przy pomocy procmaila
+Summary(pl.UTF-8):	Zwiększanie bezpieczeństwa poczty elektronicznej przy pomocy procmaila
 Name:		procmail-sanitizer
 Version:	1.142
 Release:	3
